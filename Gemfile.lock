@@ -9,6 +9,9 @@ GEM
       fiber-local
     fiber-local (1.0.0)
     io-event (1.0.1)
+    pg (1.2.3)
+    redis (4.5.1)
+    sequel (5.51.0)
     timers (4.3.3)
 
 PLATFORMS
@@ -16,6 +19,9 @@ PLATFORMS
 
 DEPENDENCIES
   async
+  pg
+  redis
+  sequel
 
 BUNDLED WITH
    2.3.3
